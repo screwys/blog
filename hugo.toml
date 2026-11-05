@@ -1,0 +1,11 @@
+baseURL = 'https://screwy.dev/'
+locale = 'en-us'
+title = "blog"
+
+[module]
+  [[module.imports]]
+    path = "github.com/hugo-sid/hugo-blog-awesome/v2"
+
+[caches]
+    [caches.images]
+    dir = ':cacheDir/images'
