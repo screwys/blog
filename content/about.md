@@ -16,5 +16,4 @@ My OpenPGP key is published through Web Key Directory, so most mail clients shou
 gpg --locate-keys me@screwy.dev
 ```
 
-Or, you can just [download](/pgp.asc) it.
-
+It is also available [here](/screwy.txt).
