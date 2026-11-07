@@ -9,3 +9,13 @@ title = "blog"
 [caches]
     [caches.images]
     dir = ':cacheDir/images'
+
+[menus]
+  [[menus.main]]
+    name = 'About'
+    pageRef = '/about'
+    weight = 10
+  [[menus.main]]
+    name = 'Media'
+    url = 'https://media.screwy.dev/'
+    weight = 20
